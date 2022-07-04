@@ -1,0 +1,1 @@
+create configmap jeus-config --from-file=domain.xml -n project1

@@ -1,0 +1,1 @@
+cat bc-list.txt | while read line; do oc create secret generic $line-ds1-password --from-file=password --type=Opaque; done; 
